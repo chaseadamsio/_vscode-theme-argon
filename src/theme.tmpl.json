@@ -195,10 +195,48 @@
             }
         },
         {
-            "name": "YAML key",
-            "scope": "entity.name.tag.yaml",
+            "name": "attribute name",
+            "scope": "entity.other.attribute-name",
             "settings": {
-                "foreground": "{{blue}}"
+                "foreground": "{{blue}}",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "tag",
+            "scope": "entity.name.tag, support.type.property-name",
+            "settings": {
+                "foreground": "{{magenta}}"
+            }
+        },
+        {
+            "name": "tag",
+            "scope": "source.css keyword.other.unit",
+            "settings": {
+                "foreground": "{{foreground}}"
+            }
+        },
+        {
+            "name": "tag",
+            "scope": "support.constant.property-value",
+            "settings": {
+                "foreground": "{{blue}}",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "tag",
+            "scope": "meta.object-literal.key",
+            "settings": {
+                "foreground": "{{magenta}}",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "css tag",
+            "scope": "entity.name.tag.css",
+            "settings": {
+                "foreground": "{{yellow}}"
             }
         },
         {
@@ -382,7 +420,8 @@
             "name": "[Typescript] Object",
             "scope": "meta.function-call entity.name.function",
             "settings": {
-                "foreground": "{{foreground}}"
+                "foreground": "{{foreground}}",
+                "fontStyle": "bold"
             }
         },
 
