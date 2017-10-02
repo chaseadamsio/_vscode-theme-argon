@@ -1,0 +1,59 @@
+{
+    "name": "vscode-noble-theme-{{toLower theme}}",
+    "displayName": "Noble Themes - {{theme}}",
+    "description": "Noble Themes are inspired by the noble gases. This theme inspired by {{theme}}.",
+    "publisher": "chaseadamsio",
+    "version": "1.0.3",
+    "license": "MIT",
+    "scripts": {
+        "vsce:prepublish": "node ../scripts/generate.js"
+    },
+    "icon": "icon.png",
+    "engines": {
+        "vscode": "^1.8.0"
+    },
+    "galleryBanner": {
+        "color": "{{gray00}}",
+        "theme": "{{type}}"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "theme", "{{type}}"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "{{theme}} Noble Theme",
+                "uiTheme": "vs-{{type}}",
+                "path": "./theme.json"
+            }
+        ]
+    },
+    "bugs": {
+        "url": "https://gitlab.com/chaseadamsio/vscode-noble-themes/issues"
+    },
+    "homepage": "https://gitlab.com/chaseadamsio/vscode-noble-theme-{{toLower theme}}",
+    "repository": {
+        "type": "git",
+        "url": "https://gitlab.com/chaseadamsio/vscode-noble-theme-{{toLower theme}}"
+    },
+    "badges": [
+		{
+			"url": "https://vsmarketplacebadge.apphb.com/version/chaseadamsio.vscode-noble-theme-{{toLower theme}}.svg",
+			"href": "https://marketplace.visualstudio.com/items/chaseadamsio.vscode-noble-theme-{{toLower theme}}",
+			"description": "Extension version"
+		},
+		{
+			"url": "https://vsmarketplacebadge.apphb.com/installs/chaseadamsio.vscode-noble-theme-{{toLower theme}}.svg",
+			"href": "https://marketplace.visualstudio.com/items/chaseadamsio.vscode-noble-theme-{{toLower theme}}",
+			"description": "Extension installs"
+		},
+		{
+			"url": "https://vsmarketplacebadge.apphb.com/rating/chaseadamsio.vscode-noble-theme-{{toLower theme}}.svg",
+			"href": "https://marketplace.visualstudio.com/items/chaseadamsio.vscode-noble-theme-{{toLower theme}}",
+			"description": "Extension Rating"
+		}
+	]
+}

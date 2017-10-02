@@ -1,0 +1,413 @@
+{
+    "name": "{{theme}}",
+    "type": "{{type}}",
+    "colors": {
+        "background": "{{background}}",
+        "foreground": "{{foreground}}",
+        "activityBar.foreground": "{{foreground}}",
+        "activityBar.background": "{{gray00}}",
+        "activityBarBadge.foreground": "{{gray00}}",
+        "activityBarBadge.background": "{{blue}}",
+        "button.background": "{{blue}}",
+        "diffEditor.insertedTextBackground": "{{green}}33",
+        "diffEditor.removedTextBackground": "{{red}}33",
+        "dropdown.background": "{{gray00}}",
+        "editor.background": "{{background}}",
+        "editor.foreground": "{{foreground}}",
+        "editor.findMatchBackground": "{{blue}}33",
+        "editor.findMatchHighlightBackground": "{{blue}}55",
+        "editor.findRangeHighlightBackground": "{{cyan}}33",
+        "editor.hoverHighlightBackground": "{{gray00}}",
+        "editor.lineHighlightBackground": "{{gray01}}",
+        "editorBracketMatch.border": "{{foreground-muted}}",
+        "editorCodeLens.foreground": "{{gray03}}",
+        "editorCursor.foreground": "{{blue}}",
+        "editorError.foreground": "{{red}}",
+        "editorGutter.background": "{{background}}",
+        "editorGutter.addedBackground": "{{green}}",
+        "editorGutter.modifiedBackground": "{{blue}}",
+        "editorGutter.deletedBackground": "{{red}}",
+        "editorLineNumber.foreground": "{{gray02}}",
+        "editorLink.activeForeground": "{{cyan}}",
+        "editorGroupHeader.tabsBackground": "{{gray00}}",
+        "editorHoverWidget.background": "{{gray00}}",
+        "editorHoverWidget.border": "{{gray03}}",
+        "editorSuggestWidget.background": "{{background}}",
+        "editorSuggestWidget.border": "{{gray03}}",
+        "editorSuggestWidget.foreground": "{{foreground}}",
+        "editorSuggestWidget.highlightForeground": "{{blue}}",
+        "editorSuggestWidget.selectedBackground": "{{gray00}}",
+        "editorWarning.foreground": "{{yellow}}",
+        "editorWidget.background": "{{gray00}}",
+        "focusBorder": "{{background}}",
+        "input.background": "{{background}}",
+        "list.activeSelectionForeground": "{{foreground}}",
+        "list.activeSelectionBackground": "{{blue}}88",
+        "list.focusBackground": "{{background}}",
+        "list.focusForeground": "{{foreground}}",
+        "list.highlightForeground": "{{blue}}",
+        "list.hoverBackground": "{{background}}",
+        "list.inactiveSelectionBackground": "{{blue}}33",
+        "list.inactiveSelectionForeground": "{{foreground}}",
+        "merge.currentHeaderBackground": "{{green}}88",
+        "merge.currentContentBackground": "{{green}}33",
+        "merge.incomingHeaderBackground": "{{blue}}88",
+        "merge.incomingContentBackground": "{{blue}}33",
+        "notification.background": "{{background}}",
+        "notification.foreground": "{{foreground}}",
+        "notification.buttonBackground": "{{blue}}",
+        "notification.buttonHoverBackground": "{{blue}}",
+        "notification.buttonForeground": "{{background}}",
+        "notification.infoBackground": "{{background}}",
+        "notification.infoForeground": "{{cyan}}",
+        "notification.warningBackground": "{{background}}",
+        "notification.warningForeground": "{{yellow}}",
+        "notification.errorBackground": "{{background}}",
+        "notification.errorForeground": "{{red}}",
+        "panel.border": "{{gray00}}",
+        "panel.background": "{{gray00}}",
+        "peekView.border": "{{gray00}}",
+        "peekViewEditor.background": "{{gray00}}",
+        "peekViewEditor.matchHighlightBackground": "{{magenta}}33",
+        "peekViewResult.background":"{{gray00}}",
+        "peekViewResult.fileForeground": "{{foreground-muted}}",
+        "peekViewResult.selectionBackground": "{{background}}",
+        "peekViewResult.selectionForeground": "{{foreground}}",
+        "peekViewResult.lineForeground": "{{foreground-muted}}",
+        "peekViewResult.matchHighlightBackground": "{{magenta}}33",
+        "peekViewTitle.background": "{{gray00}}",
+        "peekViewTitleDescription.foreground": "{{foreground}}",
+        "peekViewTitleLabel.foreground": "{{foreground}}",
+        "scrollbar.shadow": "{{background}}",
+        "selection.background": "{{blue}}88",
+        "sideBar.background": "{{gray00}}",
+        "sideBar.foreground": "{{foreground-muted}}",
+        "sideBarSectionHeader.background": "{{gray00}}",
+        "sideBarSectionHeader.foreground": "{{blue}}",
+        "sideBarTitle.foreground": "{{blue}}",
+        "statusBar.background": "{{gray00}}",
+        "statusBar.debuggingBackground": "{{red}}",
+        "statusBar.debuggingForeground": "{{background}}",
+        "statusBar.foreground": "{{foreground-muted}}",
+        "statusBar.noFolderBackground": "{{gray00}}",
+        "statusBar.noFolderForeground": "{{foreground-muted}}",
+        "statusBarItem.hoverBackground": "{{background}}",
+        "statusBarItem.prominentBackground": "{{foreground}}",
+        "tab.activeBackground": "{{background}}",
+        "tab.activeForeground": "{{foreground}}",
+        "tab.inactiveBackground": "{{gray00}}",
+        "tab.inactiveForeground": "{{foreground-muted}}",
+        "titleBar.activeBackground": "{{gray00}}",
+        "titleBar.activeForeground": "{{foreground}}",
+        "titleBar.inactiveForeground": "{{foreground-muted}}",
+        "widget.shadow": "{{gray00}}",
+        "terminal.background": "{{background}}",
+        "terminal.foreground": "{{foreground}}",
+        "terminal.ansiBlack": "{{gray00}}",
+        "terminal.ansiBlue": "{{blue}}",
+        "terminal.ansiRed": "{{red}}",
+        "terminal.ansiGreen": "{{green}}",
+        "terminal.ansiYellow": "{{yellow}}",
+        "terminal.ansiMagenta": "{{magenta}}",
+        "terminal.ansiCyan": "{{cyan}}",
+        "terminal.ansiWhite": "{{white}}"
+    },
+    "tokenColors": [
+        
+        {
+            "name": "Comment",
+            "scope": "comment,punctuation.definition.comment",
+            "settings": {
+                "foreground": "{{gray04}}",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "Text",
+            "scope": "support.function",
+            "settings": {
+                "foreground": "{{blue}}"
+            }
+        },
+        {
+            "name": "",
+            "scope": "storage.type",
+            "settings": {
+                "foreground": "{{magenta}}",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "",
+            "scope": "support.class",
+            "settings": {
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Boolean",
+            "scope": "constant.language.boolean",
+            "settings": {
+                "foreground": "{{yellow}}"
+            }
+        },
+        {
+            "name": "",
+            "scope": ["storage.type.string.go"],
+            "settings": {
+                "foreground": "{{yellow}}"
+            }
+        },
+        {
+            "name": "",
+            "scope": "variable.other.object.js",
+            "settings": {
+                "foreground": "{{foreground}}",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Boolean",
+            "scope": "none",
+            "settings": {
+              "foreground": "{{red}}"
+            }
+        },
+        {
+            "name": "Keyword",
+            "scope": "keyword",
+            "settings": {
+              "foreground": "{{magenta}}"
+            }
+        },
+        {
+            "name": "String",
+            "scope": "string",
+            "settings": {
+                "foreground": "{{green}}"
+            }
+        },
+        {
+            "name": "Function",
+            "scope": "entity.name.function",
+            "settings": {
+                "foreground": "{{blue}}"
+            }
+        },
+        {
+            "name": "YAML key",
+            "scope": "entity.name.tag.yaml",
+            "settings": {
+                "foreground": "{{blue}}"
+            }
+        },
+        {
+            "name": "Markdown Quote",
+            "scope": "markup.quote.markdown",
+            "settings": {
+                "foreground": "{{magenta}}",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "Markdown Heading",
+            "scope": "markup.heading.markdown",
+            "settings": {
+                "foreground": "{{cyan}}",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "markup.italic.markdown",
+            "scope": "markup.italic.markdown",
+            "settings": {
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "markup.bold.markdown",
+            "scope": "markup.bold.markdown",
+            "settings": {
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Markdown List",
+            "scope": "beginning.punctuation.definition.list.markdown",
+            "settings": {
+                "foreground": "{{green}}"
+            }
+        },
+        {
+            "name": "Markdown List",
+            "scope": "string.other.link.title.markdown",
+            "settings": {
+                "foreground": "{{green}}",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Markdown List",
+            "scope": "markup.underline.link.markdown",
+            "settings": {
+                "foreground": "{{blue}}"
+            }
+        },
+        {
+            "name": "Org Heading",
+            "scope": "markup.heading.org",
+            "settings": {
+                "foreground": "{{blue}}",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Org Heading",
+            "scope": "entity.name.type.org",
+            "settings": {
+                "foreground": "{{magenta}}",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "[Org] Italic",
+            "scope": "markup.italic.org",
+            "settings": {
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "[Org] Bold",
+            "scope": "markup.bold.org",
+            "settings": {
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "[Org] Variable (links)",
+            "scope": "variable.org",
+            "settings": {
+                "foreground": "{{red}}"
+            }
+        },
+        {
+            "name": "[Org] blocks",
+            "scope": "punctuation.definition.tag.org",
+            "settings": {
+                "foreground": "{{gray04}}"
+            }
+        },
+        {
+            "name": "[Org] block language",
+            "scope": "block.language.org",
+            "settings": {
+                "foreground": "{{green}}99",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "[Go] function definition",
+            "scope": "entity.name.function.go",
+            "settings": {
+                "foreground": "{{cyan}}",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "[Go] function definition",
+            "scope": "support.function.go",
+            "settings": {
+                "foreground": "{{blue}}"
+            }
+        },
+        {
+            "name": "[Go] variable assignment",
+            "scope": "variable.other.assignment.go",
+            "settings": {
+                "foreground": "{{red}}"
+            }
+        },
+        {
+            "name": "YAML string",
+            "scope": "string.quoted.double.yaml, string.quoted.single.yaml",
+            "settings": {
+                "foreground": "{{green}}"
+            }
+        },
+        {
+            "name": "YAML unquoted",
+            "scope": "string.unquoted.plain.out.yaml",
+            "settings": {
+                "foreground": "{{white}}"
+            }
+        },
+        {
+            "name": "INI group title",
+            "scope": "entity.name.section.group-title.ini, punctuation.definition.entity.ini",
+            "settings": {
+                "foreground": "{{blue}}"
+            }
+        },
+        {
+            "name": "[VSCODE-CUSTOM] JSON Property Name",
+            "scope": "support.type.property-name.json",
+            "settings": {
+                "foreground": "{{magenta}}",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "[VSCODE-CUSTOM] JSON constants",
+            "scope": "constant.language.json",
+            "settings": {
+                "foreground": "{{blue}}",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "[VSCODE-CUSTOM] JSON Property Value",
+            "scope": "string.quoted.double.json",
+            "settings": {
+                "foreground": "{{green}}"
+            }
+        },
+        {
+            "name": "[Typescript] Object",
+            "scope": "meta.function-call entity.name.function",
+            "settings": {
+                "foreground": "{{foreground}}"
+            }
+        },
+
+        {
+            "name": "[Typescript] Object",
+            "scope": "variable.other.object.ts",
+            "settings": {
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "[Typescript] Object",
+            "scope": "variable.other.object.property.ts",
+            "settings": {
+                "foreground": "{{cyan}}"
+            }
+        },
+        {
+            "name": "[Typescript] Object",
+            "scope": "meta.parameters.ts",
+            "settings": {
+                "foreground": "{{foreground}}",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "[Typescript] Object",
+            "scope": "meta.type.annotation.ts",
+            "settings": {
+                "foreground": "{{cyan}}",
+                "fontStyle": "italic"
+            }
+        }
+    ]
+}
