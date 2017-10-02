@@ -306,6 +306,13 @@
             }
         },
         {
+            "name": "YAML List Punctuation",
+            "scope": "punctuation.definition.block.sequence.item",
+            "settings": {
+                "foreground": "{{green}}"
+            }
+        },
+        {
             "name": "[Go] function definition",
             "scope": "entity.name.function.go",
             "settings": {
