@@ -5,6 +5,7 @@
 ## Themes
 
 This is a generator for all Noble Themes & potentially some others that I will maintain.
+
 ## Installing
 
 This extension is available for free in the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items/chaseadamsio.vscode-noble-themes)
