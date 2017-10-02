@@ -1,0 +1,32 @@
+{
+  "name": "vscode-noble-themes",
+  "scripts": {
+    "build": "node scripts/generate.js",
+    "watch": "node scripts/watch.js",
+    "vscode:prepublish": "npm run build"
+  },
+  "displayName": "Noble Themes",
+  "description": "Themes inspired by the noble gases.",
+  "version": "0.0.1",
+  "publisher": "chaseadamsio",
+  "engines": {
+    "vscode": "^1.12.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Argon - Noble Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/vscode-noble-argon/theme.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "chokidar": "^1.7.0",
+    "handlebars": "^4.0.10",
+    "lighter-spawn": "^1.0.0"
+  }
+}
