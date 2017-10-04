@@ -233,6 +233,28 @@
             }
         },
         {
+            "name": "Doctype",
+            "scope": "meta.tag.sgml.doctype",
+            "settings": {
+                "foreground": "{{cyan}}",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "[XML] Doctype Tag",
+            "scope": "meta.tag.sgml.doctype punctuation.definition.tag",
+            "settings": {
+                "foreground": "{{foreground}}"
+            }
+        },
+        {
+            "name": "[XML] Document Root Variable",
+            "scope": "meta.tag.sgml.doctype variable.language.documentroot",
+            "settings": {
+                "foreground": "{{yellow}}"
+            }
+        },
+        {
             "name": "css tag",
             "scope": "entity.name.tag.css",
             "settings": {
