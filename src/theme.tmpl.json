@@ -240,78 +240,75 @@
             }
         },
         {
-            "name": "Markdown Quote",
-            "scope": "markup.quote.markdown",
+            "name": "Markup Quote",
+            "scope": "markup.quote",
             "settings": {
                 "foreground": "{{magenta}}",
                 "fontStyle": "italic"
             }
         },
         {
-            "name": "Markdown Heading",
-            "scope": "markup.heading.markdown",
+            "name": "Markup Heading",
+            "scope": "markup.heading",
             "settings": {
                 "foreground": "{{cyan}}",
                 "fontStyle": "bold"
             }
         },
         {
-            "name": "markup.italic.markdown",
-            "scope": "markup.italic.markdown",
+            "name": "Markup Italic",
+            "scope": "markup.italic",
             "settings": {
                 "fontStyle": "italic"
             }
         },
         {
-            "name": "markup.bold.markdown",
-            "scope": "markup.bold.markdown",
+            "name": "Markup Bold",
+            "scope": "markup.bold",
             "settings": {
                 "fontStyle": "bold"
             }
         },
         {
-            "name": "Markdown List",
-            "scope": "beginning.punctuation.definition.list.markdown",
+            "name": "Markup Separator",
+            "scope": "meta.separator",
+            "settings": {
+                "foreground": "{{cyan}}"
+            }
+        },
+        {
+            "name": "Markup Link ",
+            "scope": "meta.link.reference.def",
+            "settings": {
+                "foreground": "{{magenta}}"
+            }
+        },
+        {
+            "name": "Markup List",
+            "scope": "beginning.punctuation.definition.list",
             "settings": {
                 "foreground": "{{green}}"
             }
         },
         {
-            "name": "Markdown List",
-            "scope": "string.other.link.title.markdown",
+            "name": "Markup Link Title",
+            "scope": "string.other.link.title",
             "settings": {
-                "foreground": "{{green}}",
-                "fontStyle": "bold"
+                "foreground": "{{green}}"
             }
         },
         {
-            "name": "Markdown List",
-            "scope": "markup.underline.link.markdown",
+            "name": "Markup Link URL",
+            "scope": "markup.underline.link",
             "settings": {
                 "foreground": "{{blue}}"
             }
         },
         {
-            "name": "Org Heading",
-            "scope": "markup.heading.org",
+            "name": "Markup Code",
+            "scope": "markup.inline.raw",
             "settings": {
-                "foreground": "{{blue}}",
-                "fontStyle": "bold"
-            }
-        },
-        {
-            "name": "Org Heading",
-            "scope": "entity.name.type.org",
-            "settings": {
-                "foreground": "{{magenta}}",
-                "fontStyle": "bold"
-            }
-        },
-        {
-            "name": "[Org] Italic",
-            "scope": "markup.italic.org",
-            "settings": {
-                "fontStyle": "italic"
+                "foreground": "{{yellow}}"
             }
         },
         {
