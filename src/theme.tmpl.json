@@ -312,17 +312,11 @@
             }
         },
         {
-            "name": "[Org] Bold",
-            "scope": "markup.bold.org",
+            "name": "Org Heading",
+            "scope": "entity.name.type.org",
             "settings": {
+                "foreground": "{{cyan}}",
                 "fontStyle": "bold"
-            }
-        },
-        {
-            "name": "[Org] Variable (links)",
-            "scope": "variable.org",
-            "settings": {
-                "foreground": "{{red}}"
             }
         },
         {
@@ -338,6 +332,20 @@
             "settings": {
                 "foreground": "{{green}}99",
                 "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "[Org] Keyword Key",
+            "scope": "support.type.property-name.org",
+            "settings": {
+                "foreground": "{{cyan}}"
+            }
+        },
+        {
+            "name": "[Org] Keyword Value",
+            "scope": "meta.structure.dictionary.value.org",
+            "settings": {
+                "foreground": "{{green}}"
             }
         },
         {
