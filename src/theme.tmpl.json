@@ -115,8 +115,8 @@
     "tokenColors": [
         
         {
-            "name": "Comment",
-            "scope": "comment,punctuation.definition.comment",
+            "name": "Comment plus start of comment",
+            "scope": "comment, punctuation.definition.comment",
             "settings": {
                 "foreground": "{{gray04}}",
                 "fontStyle": "italic"
