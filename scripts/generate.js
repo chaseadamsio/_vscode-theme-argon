@@ -58,7 +58,10 @@ function generateFile(filename, shouldMinify) {
 }
 
 [
-    {filename: "theme.tmpl.json", shouldMinify: true}, 
+    {filename: "theme.plusterm.tmpl.json", shouldMinify: true},
+    {filename: "theme.defaults.tmpl.json", shouldMinify: true},
+    {filename: "theme.tmpl.json", shouldMinify: true},
+    {filename: "theme.flat.tmpl.json", shouldMinify: true},
     {filename:"README.tmpl.md"},
     {filename:"package.tmpl.json"}
 ].forEach((file) => generateFile(file.filename, file.shouldMinify));
