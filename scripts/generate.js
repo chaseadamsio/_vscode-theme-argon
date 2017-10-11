@@ -31,6 +31,10 @@ const readFilePromise = util.promisify(fs.readFile);
 
 function generateFile(filename, shouldMinify) {
     fs.readFile("./src/" + filename, function (err, src) {
+        if (err) {
+            console.log(err);
+            return;
+        }
         fs.readdir(palettesPath, function (err, files) {
             if (err) {
                 console.log(err);
@@ -54,7 +58,10 @@ function generateFile(filename, shouldMinify) {
 }
 
 [
-    {filename: "theme.tmpl.json", shouldMinify: true}, 
+    {filename: "theme.plusterm.tmpl.json", shouldMinify: true},
+    {filename: "theme.defaults.tmpl.json", shouldMinify: true},
+    {filename: "theme.tmpl.json", shouldMinify: true},
+    {filename: "theme.flat.tmpl.json", shouldMinify: true},
     {filename:"README.tmpl.md"},
     {filename:"package.tmpl.json"}
 ].forEach((file) => generateFile(file.filename, file.shouldMinify));
