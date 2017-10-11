@@ -76,6 +76,21 @@
             }
         },
         {
+            "name": "",
+            "scope": "punctuation.definition.template-expression",
+            "settings": {
+                "foreground": "{{green}}",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "",
+            "scope": "meta.brace.round",
+            "settings": {
+                "foreground": "{{foreground}}"
+            }
+        },
+        {
             "name": "Boolean",
             "scope": "constant.language.boolean",
             "settings": {
