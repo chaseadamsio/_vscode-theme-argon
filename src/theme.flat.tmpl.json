@@ -1,0 +1,30 @@
+{
+    "name": "{{theme}}",
+    "type": "{{type}}",
+    "include": "./theme.plusterm.json",
+    "colors": {
+        "editor.hoverHighlightBackground": "{{background}}",
+        "editorGroupHeader.tabsBackground": "{{background}}",
+        "editorHoverWidget.background": "{{background}}",
+        "peekView.order": "{{background}}",
+        "peekViewEditor.background": "{{background}}",
+        "peekViewResult.background":"{{background}}",
+        "peekViewTitle.background": "{{background}}",
+        "activityBar.background": "{{background}}",
+        "activityBarBadge.foreground": "{{background}}",
+        "dropdown.background": "{{background}}",
+        "editorWidget.background": "{{background}}",
+        "list.focusBackground": "{{gray00}}",
+        "panel.border": "{{gray00}}",
+        "panel.background": "{{background}}",
+        "sideBar.background": "{{background}}",
+        "sideBar.border": "{{gray00}}",
+        "sideBar.foreground": "{{foreground}}",
+        "sideBarSectionHeader.background": "{{background}}",
+        "statusBar.background": "{{background}}",
+        "statusBar.noFolderBackground": "{{background}}",
+        "tab.inactiveBackground": "{{background}}",
+        "titleBar.activeBackground": "{{background}}",
+        "widget.shadow": "{{background}}"
+    }
+}

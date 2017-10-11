@@ -3,7 +3,7 @@
     "displayName": "{{theme}} - A Noble Theme",
     "description": "Noble Themes are inspired by the noble gases. This theme inspired by {{theme}}.",
     "publisher": "chaseadamsio",
-    "version": "1.2.0",
+    "version": "1.4.3",
     "license": "MIT",
     "scripts": {
         "vsce:prepublish": "node ../scripts/generate.js"
@@ -25,9 +25,24 @@
     "contributes": {
         "themes": [
             {
-                "label": "{{theme}} Noble Theme",
+                "label": "{{theme}} — Noble Theme",
+                "uiTheme": "vs-{{type}}",
+                "path": "./theme.plusterm.json"
+            },
+            {
+                "label": "{{theme}} (Flat) - Noble Theme",
+                "uiTheme": "vs-{{type}}",
+                "path": "./theme.flat.json"
+            },
+            {
+                "label": "{{theme}} (Editor & Workbench) - Noble Theme",
                 "uiTheme": "vs-{{type}}",
                 "path": "./theme.json"
+            },
+            {
+                "label": "{{theme}} (Editor Only) - Noble Theme",
+                "uiTheme": "vs-{{type}}",
+                "path": "./theme.defaults.json"
             }
         ]
     },

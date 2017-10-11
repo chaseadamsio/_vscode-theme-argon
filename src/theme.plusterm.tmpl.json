@@ -1,0 +1,17 @@
+{
+    "name": "{{theme}}",
+    "type": "{{type}}",
+    "include": "./theme.json",
+    "colors": {
+        "terminal.background": "{{background}}",
+        "terminal.foreground": "{{foreground}}",
+        "terminal.ansiBlack": "{{gray00}}",
+        "terminal.ansiBlue": "{{blue}}",
+        "terminal.ansiRed": "{{red}}",
+        "terminal.ansiGreen": "{{green}}",
+        "terminal.ansiYellow": "{{yellow}}",
+        "terminal.ansiMagenta": "{{magenta}}",
+        "terminal.ansiCyan": "{{cyan}}",
+        "terminal.ansiWhite": "{{white}}"
+    }
+}
