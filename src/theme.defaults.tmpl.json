@@ -91,9 +91,25 @@
         },
         {
             "name": "",
-            "scope": "variable.other.object.js",
+            "scope": "variable.other.object",
+            "settings": {
+                "foreground": "{{cyan}}",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "",
+            "scope": "variable.object.property",
             "settings": {
                 "foreground": "{{foreground}}",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "",
+            "scope": "meta.import variable.other",
+            "settings": {
+                "foreground": "{{cyanAlt}}",
                 "fontStyle": "bold"
             }
         },
@@ -122,14 +138,14 @@
             "name": "Function",
             "scope": "entity.name.function",
             "settings": {
-                "foreground": "{{blue}}"
+                "foreground": "{{cyanAlt}}"
             }
         },
         {
             "name": "attribute name",
             "scope": "entity.other.attribute-name",
             "settings": {
-                "foreground": "{{blue}}",
+                "foreground": "{{cyanAlt}}",
                 "fontStyle": "italic"
             }
         },
@@ -151,7 +167,7 @@
             "name": "tag",
             "scope": "support.constant.property-value",
             "settings": {
-                "foreground": "{{blue}}",
+                "foreground": "{{cyanAlt}}",
                 "fontStyle": "italic"
             }
         },
@@ -254,7 +270,7 @@
             "name": "Markup Link URL",
             "scope": "markup.underline.link",
             "settings": {
-                "foreground": "{{blue}}"
+                "foreground": "{{cyanAlt}}"
             }
         },
         {
@@ -320,7 +336,7 @@
             "name": "[Go] function definition",
             "scope": "support.function.go",
             "settings": {
-                "foreground": "{{blue}}"
+                "foreground": "{{cyanAlt}}"
             }
         },
         {
@@ -341,7 +357,7 @@
             "name": "INI group title",
             "scope": "entity.name.section.group-title.ini, punctuation.definition.entity.ini",
             "settings": {
-                "foreground": "{{blue}}"
+                "foreground": "{{cyanAlt}}"
             }
         },
         {
@@ -356,7 +372,7 @@
             "name": "[VSCODE-CUSTOM] JSON constants",
             "scope": "constant.language.json",
             "settings": {
-                "foreground": "{{blue}}",
+                "foreground": "{{cyanAlt}}",
                 "fontStyle": "italic"
             }
         },
