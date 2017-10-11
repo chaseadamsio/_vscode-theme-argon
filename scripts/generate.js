@@ -31,6 +31,10 @@ const readFilePromise = util.promisify(fs.readFile);
 
 function generateFile(filename, shouldMinify) {
     fs.readFile("./src/" + filename, function (err, src) {
+        if (err) {
+            console.log(err);
+            return;
+        }
         fs.readdir(palettesPath, function (err, files) {
             if (err) {
                 console.log(err);
