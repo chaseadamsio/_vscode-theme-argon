@@ -3,7 +3,7 @@
     "displayName": "{{theme}} - A Noble Theme",
     "description": "Noble Themes are inspired by the noble gases. This theme inspired by {{theme}}.",
     "publisher": "chaseadamsio",
-    "version": "1.5.3",
+    "version": "1.6.3",
     "license": "MIT",
     "scripts": {
         "vsce:prepublish": "node ../scripts/generate.js"
