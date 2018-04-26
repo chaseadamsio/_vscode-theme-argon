@@ -95,14 +95,15 @@
             "name": "Boolean",
             "scope": "constant.language.boolean",
             "settings": {
-                "foreground": "{{yellow}}"
+                "fontStyle": "bold",
+                "foreground": "{{foreground}}"
             }
         },
         {
             "name": "",
             "scope": ["storage.type.string.go"],
             "settings": {
-                "foreground": "{{yellow}}"
+                "fontStyle": "italic"
             }
         },
         {
@@ -127,13 +128,6 @@
             "settings": {
                 "foreground": "{{cyanAlt}}",
                 "fontStyle": "bold"
-            }
-        },
-        {
-            "name": "Boolean",
-            "scope": "none",
-            "settings": {
-              "foreground": "{{red}}"
             }
         },
         {
