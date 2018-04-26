@@ -49,7 +49,7 @@
         "panel.border": "{{gray00}}",
         "panel.background": "{{gray00}}",
         "sideBar.background": "{{gray00}}",
-        "sideBar.foreground": "{{foreground-muted}}",
+        "sideBar.foreground": "{{foreground-half}}",
         "sideBarSectionHeader.background": "{{gray00}}",
         "sideBarSectionHeader.foreground": "{{blue}}",
         "sideBarTitle.foreground": "{{blue}}",
