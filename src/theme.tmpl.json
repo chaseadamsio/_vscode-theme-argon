@@ -65,6 +65,8 @@
         "tab.activeForeground": "{{foreground}}",
         "tab.inactiveBackground": "{{gray00}}",
         "tab.inactiveForeground": "{{foreground-muted}}",
+        "textLink.foreground": "{{blue}}",
+        "textLink.activeForeground": "{{cyanAlt}}",
         "titleBar.activeBackground": "{{gray00}}",
         "titleBar.activeForeground": "{{foreground}}",
         "titleBar.inactiveForeground": "{{foreground-muted}}",
