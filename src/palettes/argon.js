@@ -4,6 +4,7 @@ module.exports = {
     "background": "#272B34",
     "foreground": "#C7C8FF",
     "foreground-muted": "#757694",
+    "foreground-half": "#C7C8FFCC",
     "black": "#1B2229",
     "red": "#F86F65",
     "green": "#A1EF9D",
