@@ -19,6 +19,7 @@
         "editorGutter.modifiedBackground": "{{blue}}",
         "editorGutter.deletedBackground": "{{red}}",
         "editorLineNumber.foreground": "{{gray04}}",
+        "editorLineNumber.activeForeground": "{{foreground-muted}}",
         "editorLink.activeForeground": "{{cyan}}",
         "editorGroupHeader.tabsBackground": "{{gray00}}",
         "editorHoverWidget.background": "{{gray00}}",
