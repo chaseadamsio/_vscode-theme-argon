@@ -8,6 +8,7 @@
         "activityBarBadge.foreground": "{{gray00}}",
         "activityBarBadge.background": "{{foreground}}",
         "button.background": "{{blue}}",
+        "descriptionForeground": "{{foreground}}",
         "diffEditor.insertedTextBackground": "{{green}}33",
         "diffEditor.removedTextBackground": "{{red}}33",
         "dropdown.background": "{{gray00}}",
