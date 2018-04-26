@@ -3,10 +3,10 @@
     "type": "{{type}}",
     "include": "./theme.defaults.json",
     "colors": {
-        "activityBar.foreground": "{{foreground}}",
+        "activityBar.foreground": "{{gray04}}",
         "activityBar.background": "{{gray00}}",
         "activityBarBadge.foreground": "{{gray00}}",
-        "activityBarBadge.background": "{{blue}}",
+        "activityBarBadge.background": "{{foreground}}",
         "button.background": "{{blue}}",
         "diffEditor.insertedTextBackground": "{{green}}33",
         "diffEditor.removedTextBackground": "{{red}}33",
