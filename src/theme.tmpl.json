@@ -11,6 +11,7 @@
         "diffEditor.insertedTextBackground": "{{green}}33",
         "diffEditor.removedTextBackground": "{{red}}33",
         "dropdown.background": "{{gray00}}",
+        "editorError.foreground": "{{red}}",
         "editorWarning.foreground": "{{yellow}}",
         "editorWidget.background": "{{gray00}}",
         "focusBorder": "{{background}}",
