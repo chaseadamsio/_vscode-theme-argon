@@ -3,6 +3,8 @@
     "type": "{{type}}",
     "include": "./theme.json",
     "colors": {
+        "panelTitle.activeForeground": "{{foreground}}",
+        "panelTitle.inactiveForeground": "{{foreground-muted}}",
         "terminal.background": "{{background}}",
         "terminal.foreground": "{{foreground}}",
         "terminal.ansiBlack": "{{gray00}}",
