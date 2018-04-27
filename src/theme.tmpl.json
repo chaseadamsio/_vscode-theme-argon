@@ -59,6 +59,8 @@
         "notification.errorForeground": "{{red}}",
         "panel.border": "{{gray00}}",
         "panel.background": "{{gray00}}",
+        "panelTitle.activeForeground": "{{foreground}}",
+        "panelTitle.inactiveForeground": "{{foreground-muted}}",
         "sideBar.background": "{{gray00}}",
         "sideBar.foreground": "{{foreground-half}}",
         "sideBarSectionHeader.background": "{{gray00}}",
