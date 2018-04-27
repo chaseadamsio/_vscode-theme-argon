@@ -7,6 +7,8 @@
         "activityBar.background": "{{gray00}}",
         "activityBarBadge.foreground": "{{gray00}}",
         "activityBarBadge.background": "{{foreground}}",
+        "badge.foreground": "{{gray00}}",
+        "badge.background": "{{foreground}}",
         "button.background": "{{blue}}",
         "descriptionForeground": "{{foreground}}",
         "diffEditor.insertedTextBackground": "{{green}}33",
