@@ -61,6 +61,7 @@
         "panel.background": "{{gray00}}",
         "panelTitle.activeForeground": "{{foreground}}",
         "panelTitle.inactiveForeground": "{{foreground-muted}}",
+        "progressBar.background": "{{blue}}",
         "sideBar.background": "{{gray00}}",
         "sideBar.foreground": "{{foreground-half}}",
         "sideBarSectionHeader.background": "{{gray00}}",
