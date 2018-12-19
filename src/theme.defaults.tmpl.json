@@ -4,6 +4,10 @@
     "colors": {
         "background": "{{background}}",
         "foreground": "{{foreground}}",
+        "textLink.foreground": "{{blue}}",
+        "textLink.activeForeground": "{{blue}}33",
+        "welcomePage.buttonHoverBackground": "{{gray00}}",
+        "welcomePage.buttonBackground": "{{black}}",
         "editor.background": "{{background}}",
         "editor.foreground": "{{foreground}}",
         "editor.findMatchBackground": "{{blue}}33",
