@@ -3,6 +3,7 @@
     "type": "{{type}}",
     "colors": {
         "background": "{{background}}",
+        "foreground": "{{foreground}}",
         "editor.background": "{{background}}",
         "editor.foreground": "{{foreground}}",
         "editor.findMatchBackground": "{{blue}}33",
