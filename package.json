@@ -1,32 +1,86 @@
 {
-  "name": "vscode-noble-themes",
-  "scripts": {
-    "build": "node scripts/generate.js",
-    "watch": "node scripts/watch.js",
-    "vscode:prepublish": "npm run build"
-  },
-  "displayName": "Noble Themes",
-  "description": "Themes inspired by the noble gases.",
-  "version": "0.0.1",
-  "publisher": "chaseadamsio",
-  "engines": {
-    "vscode": "^1.12.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "Argon - Noble Theme",
-        "uiTheme": "vs-dark",
-        "path": "./themes/vscode-noble-argon/theme.json"
-      }
-    ]
-  },
-  "devDependencies": {
-    "chokidar": "^1.7.0",
-    "handlebars": "^4.0.10",
-    "lighter-spawn": "^1.0.0"
-  }
+    "name": "vscode-theme-argon",
+    "displayName": "Argon",
+    "description": "A VS Code Dark Theme with a hint of magenta",
+    "publisher": "chaseadamsio",
+    "version": "2.1.0",
+    "license": "MIT",
+    "scripts": {
+        "build": "yarn build-default && yarn build-base && yarn build-plusterm && yarn build-flat",
+        "build-flat": "jsonnet src/theme.flat.jsonnet > build/theme.flat.json",
+        "build-plusterm": "jsonnet src/theme.plusterm.jsonnet > build/theme.plusterm.json",
+        "build-default": "jsonnet src/theme.defaults.jsonnet > build/theme.defaults.json",
+        "build-base": "jsonnet src/theme.jsonnet > build/theme.json",
+        "dev-link": "ln -s $(PWD) $HOME/.vscode/extensions/chaseadamsio.vscode-theme-argon-development",
+        "watch": "node scripts/watch.js",
+        "vscode:prepublish": "npm run build"
+    },
+    "icon": "icon.png",
+    "engines": {
+        "vscode": "^1.8.5"
+    },
+    "galleryBanner": {
+        "color": "#20242D",
+        "theme": "dark"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "theme",
+        "dark"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Argon",
+                "uiTheme": "vs-dark",
+                "path": "./build/theme.plusterm.json"
+            },
+            {
+                "label": "Argon (Flat)",
+                "uiTheme": "vs-dark",
+                "path": "./build/theme.flat.json"
+            },
+            {
+                "label": "Argon (Editor & Workbench)",
+                "uiTheme": "vs-dark",
+                "path": "./build/theme.json"
+            },
+            {
+                "label": "Argon (Editor Only)",
+                "uiTheme": "vs-dark",
+                "path": "./build/theme.defaults.json"
+            }
+        ]
+    },
+    "bugs": {
+        "url": "https://github.com/chaseadamsio/vscode-theme-argon/issues"
+    },
+    "homepage": "https://github.com/chaseadamsio/vscode-theme-argon",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/chaseadamsio/vscode-theme-argon"
+    },
+    "badges": [
+        {
+            "url": "https://vsmarketplacebadge.apphb.com/version/chaseadamsio.vscode-noble-theme-argon.svg",
+            "href": "https://marketplace.visualstudio.com/items/chaseadamsio.vscode-noble-theme-argon",
+            "description": "Extension version"
+        },
+        {
+            "url": "https://vsmarketplacebadge.apphb.com/installs/chaseadamsio.vscode-noble-theme-argon.svg",
+            "href": "https://marketplace.visualstudio.com/items/chaseadamsio.vscode-noble-theme-argon",
+            "description": "Extension installs"
+        },
+        {
+            "url": "https://vsmarketplacebadge.apphb.com/rating/chaseadamsio.vscode-noble-theme-argon.svg",
+            "href": "https://marketplace.visualstudio.com/items/chaseadamsio.vscode-noble-theme-argon",
+            "description": "Extension Rating"
+        }
+    ],
+    "devDependencies": {
+        "chokidar": "^2.0.4",
+        "lighter-spawn": "^1.0.0"
+    }
 }
