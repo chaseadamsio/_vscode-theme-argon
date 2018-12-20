@@ -1,35 +1,59 @@
-# VS Code Noble Themes
+# VS Code Theme: Argon
 
-A collection of themes created or maintained by [chaseadamsio](https://twitter.com/chaseadamsio)
+A dark theme for VS Code, heavy on the magenta.
 
-## Themes
+![screenshot](https://github.com/chaseadamsio/vscode-theme-argon/raw/master/screenshots/argon/argon-all.png)
 
-- Argon
+## Getting Started
 
-## Contributing
+You can install this theme through the [Visual Studio Code Marketplace](https://marketplhub.visualstudio.com/items?itemName=chaseadamsio.vscode-theme-argon).
 
-One of the goals of this project was to maintain templates for the README and the theme schema so that adding new schemes was trivial without having to copy/pasta a theme, thus creating version drift.
+## Installation
 
-Because of that, the project structure may seem a little convoluted.
+Launch _Quick Open_
 
-### Getting Started
+-   <img src="https://hub.kernel.org/theme/images/logos/favicon.png" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf">Linux</a> `Ctrl+P`
+-   <img src="https://developer.apple.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf">macOS</a> `⌘P`
+-   <img src="https://www.microsoft.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf">Windows</a> `Ctrl+P`
 
-In order to edit the theme, there's an assumption that you have nodejs installed.
+Paste the following command and press `Enter`:
 
-First install the dependencies:
-
-```sh
-npm install
+```shell
+ext install vscode-noble-theme-argon
 ```
 
-Next, run `npm run build` to generate the initial theme directories with their `package.json`, `README.md` and `theme.json`.
+## Activate theme
 
-If you want to contribute to a theme, scopes are added in the `src/theme.tmpl.json`.
+Launch _Quick Open_
 
-## Installing
+-   <img src="https://www.kernel.org/theme/images/logos/favicon.png" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf">Linux</a> `Ctrl+P`
+-   <img src="https://developer.apple.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf">macOS</a> `Shift+⌘+P`
+-   <img src="https://www.microsoft.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf">Windows</a> `Ctrl+P`
 
-This extension is available for free in the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items/chaseadamsio.vscode-noble-themes)
+Type `theme` and choose `Preferences: Color Theme`, then select `Argon - Noble Theme` from the list.
 
-## Customization
+## Screenshots
 
-If you are using VSCode 1.12+ versions you can customize the colors to your liking, overriding the ones provided by this theme. More info [here](https://code.visualstudio.com/docs/getstarted/theme-color-reference).
+### Argon (Workbench + Terminal)
+
+![Argon Full - Javascript](https://github.com/chaseadamsio/vscode-theme-argon/raw/master/screenshots/argon/argon-all.png)
+
+### Argon with Peek Definition
+
+![Argon Full with Peek Definition - Javascript](https://github.com/chaseadamsio/vscode-theme-argon/raw/master/screenshots/argon/argon-all-peek.png)
+
+### Argon Flat (Workbench + Terminal)
+
+![Argon Flat - Javascript](https://github.com/chaseadamsio/vscode-theme-argon/raw/master/screenshots/argon/argon-flat.png)
+
+### Argon Flat with Peek Definition
+
+![Argon Flat with Peek Definition - Javascript](https://github.com/chaseadamsio/vscode-theme-argon/raw/master/screenshots/argon/argon-flat-peek.png)
+
+### Argon Editor + Workbench
+
+![Argon Editor + Workbench - Javascript](https://github.com/chaseadamsio/vscode-theme-argon/raw/master/screenshots/argon/argon-editor-workbench.png)
+
+### Argon Editor Only
+
+![Argon Editor Only - Javascript](https://github.com/chaseadamsio/vscode-theme-argon/raw/master/screenshots/argon/argon-editor.png)
