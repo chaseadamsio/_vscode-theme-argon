@@ -1,12 +1,16 @@
+<div align="center">
+
 # Argon Theme
 
 A dark theme for VS Code—heavy on the magenta.
 
 ![screenshot](https://github.com/chaseadamsio/vscode-theme-argon/raw/master/screenshots/argon-jsx-example.png)
 
+</div>
+
 ## Getting Started
 
-You can install this theme through the [Visual Studio Code Marketplace](https://marketplhub.visualstudio.com/items?itemName=chaseadamsio.vscode-theme-argon).
+You can find the Argon theme in the [Visual Studio Code Marketplace](https://marketplhub.visualstudio.com/items?itemName=chaseadamsio.vscode-theme-argon).
 
 ## Installation
 
