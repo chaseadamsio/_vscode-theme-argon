@@ -1,8 +1,8 @@
-# VS Code Theme: Argon
+# Argon Theme
 
-A dark theme for VS Code, heavy on the magenta.
+A dark theme for VS Code—heavy on the magenta.
 
-![screenshot](https://github.com/chaseadamsio/vscode-theme-argon/raw/master/screenshots/argon/argon-all.png)
+![screenshot](https://github.com/chaseadamsio/vscode-theme-argon/raw/master/screenshots/argon-jsx-example.png)
 
 ## Getting Started
 
@@ -10,50 +10,37 @@ You can install this theme through the [Visual Studio Code Marketplace](https://
 
 ## Installation
 
-Launch _Quick Open_
-
--   <img src="https://hub.kernel.org/theme/images/logos/favicon.png" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf">Linux</a> `Ctrl+P`
--   <img src="https://developer.apple.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf">macOS</a> `⌘P`
--   <img src="https://www.microsoft.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf">Windows</a> `Ctrl+P`
-
-Paste the following command and press `Enter`:
-
-```shell
-ext install vscode-noble-theme-argon
-```
-
-## Activate theme
-
-Launch _Quick Open_
-
--   <img src="https://www.kernel.org/theme/images/logos/favicon.png" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf">Linux</a> `Ctrl+P`
--   <img src="https://developer.apple.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf">macOS</a> `Shift+⌘+P`
--   <img src="https://www.microsoft.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf">Windows</a> `Ctrl+P`
-
-Type `theme` and choose `Preferences: Color Theme`, then select `Argon - Noble Theme` from the list.
+1. Open the **Extensions** sidebar in VS Code. `View → Extensions`
+1. Search for `Argon`, choose "Argon Theme" by **chaseadamsio**
+1. Click **Install** to install it
+1. Click **Reload** to reload your editor
+1. Navigate to File > Preferences > Color Theme > **Argon** or any of the variants listed
+1. 🎉🎉 You're all set.
 
 ## Screenshots
 
 ### Argon (Workbench + Terminal)
 
-![Argon Full - Javascript](https://github.com/chaseadamsio/vscode-theme-argon/raw/master/screenshots/argon/argon-all.png)
+![Argon Full - Javascript](https://github.com/chaseadamsio/vscode-theme-argon/raw/master/screenshots/argon-all.png)
 
 ### Argon with Peek Definition
 
-![Argon Full with Peek Definition - Javascript](https://github.com/chaseadamsio/vscode-theme-argon/raw/master/screenshots/argon/argon-all-peek.png)
+![Argon Full with Peek Definition - Javascript](https://github.com/chaseadamsio/vscode-theme-argon/raw/master/screenshots/argon-all-peek.png)
 
 ### Argon Flat (Workbench + Terminal)
 
-![Argon Flat - Javascript](https://github.com/chaseadamsio/vscode-theme-argon/raw/master/screenshots/argon/argon-flat.png)
+![Argon Flat - Javascript](https://github.com/chaseadamsio/vscode-theme-argon/raw/master/screenshots/argon-flat.png)
 
 ### Argon Flat with Peek Definition
 
-![Argon Flat with Peek Definition - Javascript](https://github.com/chaseadamsio/vscode-theme-argon/raw/master/screenshots/argon/argon-flat-peek.png)
+![Argon Flat with Peek Definition - Javascript](https://github.com/chaseadamsio/vscode-theme-argon/raw/master/screenshots/argon-flat-peek.png)
 
 ### Argon Editor + Workbench
 
-![Argon Editor + Workbench - Javascript](https://github.com/chaseadamsio/vscode-theme-argon/raw/master/screenshots/argon/argon-editor-workbench.png)
+![Argon Editor + Workbench - Javascript(https://github.com/chaseadamsio/vscode-theme-argon/raw/master/screenshots/argon-editor-workbench.png)
 
 ### Argon Editor Only
 
-![Argon Editor Only - Javascript](https://github.com/chaseadamsio/vscode-theme-argon/raw/master/screenshots/argon/argon-editor.png)
+![Argon Editor Only - Javascript](https://github.com/chaseadamsio/vscode-theme-argon/raw/master/screenshots/argon-editor.png)
+
+Designed with 💜 by **[Chase Adams](https://github.com/chaseadamsio)**. You can find me on [Twitter at chaseadamsio](https://twitter.com/chaseadamsio).
