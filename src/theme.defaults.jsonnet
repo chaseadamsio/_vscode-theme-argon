@@ -376,7 +376,7 @@ local theme = "Argon";
             "name": "[VSCODE-CUSTOM] JSON Property Name",
             "scope": "support.type.property-name.json",
             "settings": {
-                "foreground": c.magenta,
+                "foreground": c.foreground,
                 "fontStyle": "italic"
             }
         },
@@ -392,8 +392,15 @@ local theme = "Argon";
             "name": "[VSCODE-CUSTOM] JSON Property Value",
             "scope": "string.quoted.double.json",
             "settings": {
-                "foreground": c.green
+                "foreground": c.magenta
             }
+        },
+        {
+            "name": "[JSONNET] JSON String Double Quoted",
+            "scope": "string.quoted.double.jsonnet",
+            "settings": {
+                "foreground": c.magenta,
+            },
         },
         {
             "name": "[Typescript] Object",
