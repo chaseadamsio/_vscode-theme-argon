@@ -1,9 +1,9 @@
 {
-    "name": "vscode-theme-argon",
+    "name": "vscode-noble-theme-argon",
     "displayName": "Argon",
     "description": "A VS Code Dark Theme with a hint of magenta",
     "publisher": "chaseadamsio",
-    "version": "2.1.0",
+    "version": "2.1.1",
     "license": "MIT",
     "scripts": {
         "build": "yarn build-default && yarn build-base && yarn build-plusterm && yarn build-flat",
@@ -12,6 +12,7 @@
         "build-default": "jsonnet src/theme.defaults.jsonnet > build/theme.defaults.json",
         "build-base": "jsonnet src/theme.jsonnet > build/theme.json",
         "dev-link": "ln -s $(PWD) $HOME/.vscode/extensions/chaseadamsio.vscode-theme-argon-development",
+        "dev-unlink": "rm $HOME/.vscode/extensions/chaseadamsio.vscode-theme-argon-development",
         "watch": "node scripts/watch.js",
         "vscode:prepublish": "npm run build"
     },
@@ -81,6 +82,7 @@
     ],
     "devDependencies": {
         "chokidar": "^2.0.4",
-        "lighter-spawn": "^1.0.0"
+        "lighter-spawn": "^1.0.0",
+        "vsce": "^1.54.0"
     }
 }

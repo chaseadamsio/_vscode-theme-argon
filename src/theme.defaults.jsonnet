@@ -232,7 +232,7 @@ local theme = "Argon";
             "name": "Markup Heading",
             "scope": "markup.heading",
             "settings": {
-                "foreground": c.cyan,
+                "foreground": c.magenta,
                 "fontStyle": "bold"
             }
         },
@@ -258,7 +258,7 @@ local theme = "Argon";
             }
         },
         {
-            "name": "Markup Link ",
+            "name": "Markup Link",
             "scope": "meta.link.reference.def",
             "settings": {
                 "foreground": c.magenta
@@ -275,21 +275,30 @@ local theme = "Argon";
             "name": "Markup Link Title",
             "scope": "string.other.link.title",
             "settings": {
-                "foreground": c.green
+                "foreground": c.foreground,
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Markup Link Description",
+            "scope": "string.other.link.description.markdown",
+            "settings": {
+                "foreground": c.foreground,
+                "fontStyle": "bold"
             }
         },
         {
             "name": "Markup Link URL",
             "scope": "markup.underline.link",
             "settings": {
-                "foreground": c.cyanAlt
+                "foreground": c.blue
             }
         },
         {
             "name": "Markup Code",
             "scope": "markup.inline.raw",
             "settings": {
-                "foreground": c.yellow
+                "foreground": c.cyan
             }
         },
         {
