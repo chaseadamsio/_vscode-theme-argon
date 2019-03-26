@@ -1,50 +1,6 @@
-<div align="center">
-
-# Argon Theme
-
-A dark theme for VS Code—heavy on the magenta.
-
-![screenshot](https://github.com/chaseadamsio/vscode-theme-argon/raw/master/screenshots/argon-jsx-example.png)
-
-</div>
-
-## Getting Started
-
-You can find the Argon theme in the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=chaseadamsio.vscode-noble-theme-argon).
-
-## Installation
-
-1. Open the **Extensions** sidebar in VS Code. `View → Extensions`
-1. Search for `Argon`, choose "Argon Theme" by **chaseadamsio**
-1. Click **Install** to install it
-1. Click **Reload** to reload your editor
-1. Navigate to File > Preferences > Color Theme > **Argon** or any of the variants listed
-1. 🎉🎉 You're all set.
-
-## Screenshots
-
-### Argon (Workbench + Terminal)
-
-![Argon Full - Javascript](https://github.com/chaseadamsio/vscode-theme-argon/raw/master/screenshots/argon-all.png)
-
-### Argon with Peek Definition
-
-![Argon Full with Peek Definition - Javascript](https://github.com/chaseadamsio/vscode-theme-argon/raw/master/screenshots/argon-all-peek.png)
-
-### Argon Flat (Workbench + Terminal)
-
-![Argon Flat - Javascript](https://github.com/chaseadamsio/vscode-theme-argon/raw/master/screenshots/argon-flat.png)
-
-### Argon Flat with Peek Definition
-
-![Argon Flat with Peek Definition - Javascript](https://github.com/chaseadamsio/vscode-theme-argon/raw/master/screenshots/argon-flat-peek.png)
-
-### Argon Editor + Workbench
-
-![Argon Editor + Workbench - Javascript(https://github.com/chaseadamsio/vscode-theme-argon/raw/master/screenshots/argon-editor-workbench.png)
-
-### Argon Editor Only
-
-![Argon Editor Only - Javascript](https://github.com/chaseadamsio/vscode-theme-argon/raw/master/screenshots/argon-editor.png)
-
-Designed with 💜 by **[Chase Adams](https://github.com/chaseadamsio)**. You can find me on [Twitter at chaseadamsio](https://twitter.com/chaseadamsio).
+  <h2 align="center">chaseadamsio/chaseonsoftware source code <a href="https://gitlab.com/chaseadamsio/chaseonsoftware/">can now be found at GitLab</a></h2>
+  <p align="center">
+    <a href="https://gitlab.com/chaseadamsio/chaseonsoftware/">
+      <img src="https://matrix.org/docs/projects/images/gitlab-logo-gray-rgb.png" width=400 />
+    </a>
+  </p>
